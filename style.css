@@ -2,10 +2,10 @@
 
 
 .bg-background {
-    background-color: rgb(240,240,240) !important;
+    background-color: rgb(245,245,245) !important;
 }
-
-.text-text, .text-gray-100 {
+.text-text,
+.text-gray-100 {
     color: #000 !important;
     font-family: "Inter", sans-serif !important;
 }
@@ -35,6 +35,7 @@ strong {
 
 .hover\:bg-primary-800:hover,
 .hover\:bg-primary-900:hover,
+.hover\:bg-gray-700:hover,
 .bg-primary-900 {
     background-color: #efe !important;
 }
@@ -57,12 +58,20 @@ strong {
 }
 
 .border-primary-500 {
-    border-color: rgba(0,0,0,0) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
 }
 
 .bg-faintbox {
-    background-color: rgba(255,255,255,0.9) !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
     border-radius: 15px !Important;
+}
+
+.fill-primary-600 {
+    color: #ddd !important;
+}
+
+.border-black, .border-gray-600, .border-gray-700\/50 {
+    border: none !important;
 }
 
 .h-8 {
@@ -71,4 +80,81 @@ strong {
 
 .p-1 {
     border-radius: 7px !Important;
+}
+
+a[href^="/contest/"] {
+    background-color: #efefef !important;
+}
+
+.rounded-3xl {
+    background-color: #fefefe !important;
+}
+
+.bg-gray-800 {
+    background-color: #f9f9f9 !Important;
+}
+
+.hover\:bg-background {
+    background-color: #fefefe !important;
+}
+
+.mx-2 {
+    overflow: hidden !important;
+}
+
+/* Chromium and Firefox */
+.overflow-y-auto::-webkit-scrollbar,
+div::-webkit-scrollbar {
+    display: none !important;
+}
+
+.overflow-y-auto {
+    scrollbar-width: none;
+}
+
+.hover\:bg-gray-800:hover {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.h-3\/5 {
+    background-image: url('https://raw.githubusercontent.com/thatpanda0/b/refs/heads/master/assets/backgroundb.jpg') !important;
+}
+
+.css-1g2lvy1, .css-d0zi81 {
+    font-family: "Inter", sans-serif;
+    color: #000 !Important;
+}
+
+.bg-gray-900\/70, .bg-gray-800\/60, .bg-gray-900\/50 {
+    background-color: rgba(230, 230, 230, 0.9) !important;
+}
+
+.bg-gray-800\/50 {
+    background-color: rgba(200, 200, 200, 0.9) !important;
+}
+
+.text-gray-400, .text-white {
+    color: #000 !important;
+}
+
+.font-medium {
+    color: #000 !important;
+}
+
+.to-black, .to-gray-800 {
+    --tw-gradient-to: #fff !Important;
+}
+
+.from-gray-950, .from-gray-900 {
+    --tw-gradient-from: #f3f3f3 !important;
+}
+
+.bg-gray-700 {
+    background-color: #888 !important;
+}
+
+.css-9n3ag9, .css-6d7p5q {
+    font-family: "Inter", sans-serif;
+    color: #000 !Important;  
+    border-color: #000 !important;
 }
